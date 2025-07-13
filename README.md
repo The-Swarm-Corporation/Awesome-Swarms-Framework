@@ -1,213 +1,304 @@
-# Awesome Swarms ✨
+# Awesome Swarms: A Comprehensive Guide to the Swarms Framework
 
-A curated, comprehensive list of awesome libraries, tools, templates, and resources for the **Swarms** framework by [swarms.ai](https://swarms.ai). Swarms is a powerful, modular, and reliable open-source framework for building, deploying, and scaling autonomous agent swarms for any task.
+The [Swarms framework](https://swarms.ai) by [The Swarm Corporation](https://github.com/The-Swarm-Corporation) is a robust platform for building multi-agent AI systems that collaborate to solve complex problems across various industries. This curated "Awesome Swarms" list provides a comprehensive overview of applications, templates, examples, and research implementations for the Swarms framework. Explore the main repository at [https://github.com/kyegomez/swarms](https://github.com/kyegomez/swarms) and visit [swarms.ai](https://swarms.ai) for more information.
 
-**Unlock the power of collective AI. Star the main repository to show your support\!**
+---
 
-> 🔗 **Main GitHub Repository:** [**https://github.com/kyegomez/swarms**](https://github.com/kyegomez/swarms)
+## 🏥 Healthcare & Medical Applications
 
-This list is a community effort. We encourage you to contribute by submitting a pull request\!
+| Name | Description | Type | Repository |
+|------|-------------|------|------------|
+| MRI-Swarm | Multi-agent system for MRI image analysis and diagnosis | Medical Imaging | [MRI-Swarm](https://github.com/The-Swarm-Corporation/MRI-Swarm) |
+| DermaSwarm | Dermatology-focused agent swarm for skin condition analysis | Medical Diagnosis | [DermaSwarm](https://github.com/The-Swarm-Corporation/DermaSwarm) |
+| Multi-Modal-XRAY-Diagnosis | X-ray diagnosis using multi-modal AI agents | Medical Imaging | [Multi-Modal-XRAY-Diagnosis](https://github.com/The-Swarm-Corporation/Multi-Modal-XRAY-Diagnosis-Medical-Swarm-Template) |
+| Open-MAI-Dx-Orchestrator | Medical AI diagnosis orchestration platform | Medical Platform | [Open-MAI-Dx-Orchestrator](https://github.com/The-Swarm-Corporation/Open-MAI-Dx-Orchestrator) |
+| radiology-swarm | Radiology-focused multi-agent system | Medical Imaging | [radiology-swarm](https://github.com/The-Swarm-Corporation/radiology-swarm) |
+| MedicalCoderSwarm | Medical coding automation using agent swarms | Medical Coding | [MedicalCoderSwarm](https://github.com/The-Swarm-Corporation/MedicalCoderSwarm) |
+| pharma-swarm | Pharmaceutical research and development agents | Pharmaceutical | [pharma-swarm](https://github.com/The-Swarm-Corporation/pharma-swarm) |
+| MedGuard | Medical data security and compliance system | Medical Security | [MedGuard](https://github.com/The-Swarm-Corporation/MedGuard) |
+| MedInsight-Pro | Advanced medical insights and analytics platform | Medical Analytics | [MedInsight-Pro](https://github.com/The-Swarm-Corporation/MedInsight-Pro) |
+| Healthcare Assistant | Medical diagnosis and treatment planning with specialist consultation agents | Healthcare | [Healthcare Assistant](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/applications/demos/positive_med/positive_med_example.py) |
+| X-Ray Analysis | Multi-agent medical imaging analysis and diagnosis | Medical Imaging | [X-Ray Analysis](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/applications/demos/xray/xray_example.py) |
+| Pharma Agent | Pharmaceutical research and drug interaction analysis | Pharmaceutical | [Pharma Agent](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/agents/use_cases/pharma/pharma_agent_two.py) |
 
------
+---
 
-## Why Swarms? 🚀
+## 💰 Financial Services & Trading
 
-Swarms isn't just another agent framework; it's a production-grade multi-agent infrastructure platform designed for reliability, scalability, and state-of-the-art performance.
+### Trading & Investment
 
-  * **🤖 Collective Intelligence:** Move beyond the limitations of single agents. Swarms enable multiple specialized agents to collaborate, reason, and solve complex, multi-faceted problems that are impossible for a single agent to tackle.
-  * **🧱 Advanced Modular Structures:** Swarms provides a rich set of pre-built, battle-tested agent formations (Structures) like **Concurrent Swarms**, **Hierarchical Swarms**, **Mixture-of-Agents**, and **Agent Councils**. Build sophisticated workflows with minimal code.
-  * **🔬 Research-Backed:** Implementations are directly inspired by and often surpass state-of-the-art academic research. Swarms bridges the gap between theoretical papers and production-ready applications.
-  * **🛠️ Rich Tooling & Integrations:** A massive ecosystem of tools, from web Browse and code execution to vector databases and third-party framework integrations (LangChain, AutoGen), is available out of the box.
-  * **🌐 Real-World Applications:** From automated financial analysis and medical diagnosis to complex scientific research and secure code generation, Swarms provides templates and examples for a vast array of industries.
-  * **✅ Reliability & Scalability:** Built with production in mind, Swarms includes features for error handling, concurrent processing, load balancing, and monitoring to ensure your agent systems are robust and efficient.
+| Name | Description | Type | Repository |
+|------|-------------|------|------------|
+| automated-crypto-fund | Automated cryptocurrency trading fund management | Crypto Trading | [automated-crypto-fund](https://github.com/The-Swarm-Corporation/automated-crypto-fund) |
+| CryptoAgent | Cryptocurrency analysis and trading agent | Crypto Trading | [CryptoAgent](https://github.com/The-Swarm-Corporation/CryptoAgent) |
+| AutoHedge | Automated hedging strategies implementation | Risk Management | [AutoHedge](https://github.com/The-Swarm-Corporation/AutoHedge) |
+| BackTesterAgent | Trading strategy backtesting automation | Trading Tools | [BackTesterAgent](https://github.com/The-Swarm-Corporation/BackTesterAgent) |
+| ForexTreeSwarm | Forex trading decision tree swarm system | Forex Trading | [ForexTreeSwarm](https://github.com/The-Swarm-Corporation/ForexTreeSwarm) |
+| HTX-Swarm | HTX exchange integration and trading automation | Crypto Exchange | [HTX-Swarm](https://github.com/The-Swarm-Corporation/HTX-Swarm) |
 
------
+### Financial Analysis & Management
 
-## 💡 Core Concepts
+| Name | Description | Type | Repository |
+|------|-------------|------|------------|
+| TickrAgent | Stock ticker analysis and monitoring agent | Stock Analysis | [TickrAgent](https://github.com/The-Swarm-Corporation/TickrAgent) |
+| Open-Aladdin | Open-source financial risk management system | Risk Management | [Open-Aladdin](https://github.com/The-Swarm-Corporation/Open-Aladdin) |
+| CryptoTaxSwarm | Cryptocurrency tax calculation and reporting | Tax Management | [CryptoTaxSwarm](https://github.com/The-Swarm-Corporation/CryptoTaxSwarm) |
+| 401k Agent | Retirement planning assistant with investment strategy recommendations | Finance | [401k Agent](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/agents/use_cases/finance/401k_agent.py) |
+| Estate Planning | Comprehensive estate planning and wealth management assistant | Finance | [Estate Planning](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/agents/use_cases/finance/estate_planning_agent.py) |
+| Accountant Team | Multi-agent system for financial analysis, bookkeeping, and tax planning | Finance | [Accountant Team](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/applications/demos/accountant_team/account_team2_example.py) |
 
-To get the most out of Swarms, it's helpful to understand a few key concepts:
+### Insurance & Lending
 
-  * **Agent:** The fundamental building block. An autonomous entity that can perceive its environment, make decisions, and execute tasks. In Swarms, an `Agent` is typically powered by an LLM and can be equipped with tools.
-  * **Swarm:** A collection of agents organized into a specific structure to collaborate on a common goal. The Swarm orchestrates the flow of information and tasks between its constituent agents.
-  * **Structure:** The architecture or topology of a Swarm. This defines how agents communicate and collaborate. Examples include `HierarchicalSwarm` (for top-down command), `ConcurrentSwarm` (for parallel processing), and `GroupChat` (for interactive sessions).
-  * **Tool:** A function or utility that an agent can use to interact with the outside world, such as searching the web, running code, or accessing a database.
-  * **Workflow:** A sequence or graph of tasks executed by one or more agents. Swarms allows you to define simple sequential workflows or complex, dynamic graphs of operations.
-  * **Multi-modality:** The ability for agents to process and understand information beyond just text, including images, audio, and video.
+| Name | Description | Type | Repository |
+|------|-------------|------|------------|
+| InsuranceSwarm | Insurance claim processing and underwriting | Insurance | [InsuranceSwarm](https://github.com/The-Swarm-Corporation/InsuranceSwarm) |
+| MortgageUnderwritingSwarm | Automated mortgage underwriting system | Lending | [MortgageUnderwritingSwarm](https://github.com/The-Swarm-Corporation/MortgageUnderwritingSwarm) |
+| Mortgage Tax Panel | Specialized panel for mortgage and tax discussions | Finance | [Mortgage Tax Panel](https://github.com/kyegomez/swarms/blob/master/examples/multi_agent/groupchat/groupchat_examples/mortgage_tax_panel_example.py) |
 
------
+---
 
-## 🔬 Research Paper Implementations
+## 🔬 Research & Development
 
-Swarms is at the forefront of AI research, providing production-grade, open-source implementations of influential multi-agent papers. This democratizes access to cutting-edge techniques and allows developers to build with state-of-the-art models.
+### Scientific Research
 
-| Paper Name | Description | Original Paper | Implementation |
-| :--- | :--- | :--- | :--- |
-| **MALT (Multi-Agent Learning Task)** | A sophisticated orchestration framework coordinating Creator, Verifier, and Refiner agents to tackle complex tasks through structured conversations, ensuring reliability. | [arXiv:2412.01928](https://arxiv.org/pdf/2412.01928) | [`swarms.structs.malt`](https://www.google.com/search?q=%5Bhttps://docs.swarms.world/en/latest/swarms/structs/malt/%5D\(https://docs.swarms.world/en/latest/swarms/structs/malt/\)) |
-| **MAI-DxO (Diagnostic Orchestrator)** | An open-source implementation of Microsoft's "Sequential Diagnosis with Language Models," simulating a virtual panel of physician-agents for iterative medical diagnosis. | [Microsoft Research Paper](https://arxiv.org/abs/2506.22405) | [Open-MAI-Dx-Orchestrator](https://github.com/The-Swarm-Corporation/Open-MAI-Dx-Orchestrator) |
-| **AI-CoScientist** | A multi-agent framework for collaborative scientific research that uses a tournament-based system to evolve and peer-review hypotheses. | ["Towards an AI Co-Scientist"](https://storage.googleapis.com/coscientist_paper/ai_coscientist.pdf) | [AI-CoScientist](https://github.com/The-Swarm-Corporation/AI-CoScientist) |
-| **Mixture of Agents (MoA)** | An architecture that implements parallel processing with iterative refinement, combining diverse expert agents for comprehensive, state-of-the-art analysis. | [arXiv:2406.04692](https://arxiv.org/abs/2406.04692) | [`swarms.structs.moa`](https://www.google.com/search?q=%5Bhttps://docs.swarms.world/en/latest/swarms/structs/moa/%5D\(https://docs.swarms.world/en/latest/swarms/structs/moa/\)) |
-| **Deep Research Swarm** | A production-grade research system that conducts comprehensive analysis across multiple domains using parallel processing and advanced AI agents. | Internal Research | [`swarms.structs.deep_research_swarm`](https://www.google.com/search?q=%5Bhttps://docs.swarms.world/en/latest/swarms/structs/deep_research_swarm/%5D\(https://docs.swarms.world/en/latest/swarms/structs/deep_research_swarm/\)) |
-| **Agent-as-a-Judge** | An evaluation framework that uses agents to evaluate the quality and performance of other agents, automating the assessment process. | [arXiv:2410.10934](https://arxiv.org/abs/2410.10934) | [`swarms.agents.agent_judge`](https://www.google.com/search?q=%5Bhttps://docs.swarms.world/en/latest/swarms/agents/agent_judge/%5D\(https://docs.swarms.world/en/latest/swarms/agents/agent_judge/\)) |
+| Name | Description | Type | Repository |
+|------|-------------|------|------------|
+| AI-CoScientist | AI research collaboration platform | Research Platform | [AI-CoScientist](https://github.com/The-Swarm-Corporation/AI-CoScientist) |
+| auto-ai-research-team | Automated AI research team coordination | Research Automation | [auto-ai-research-team](https://github.com/The-Swarm-Corporation/auto-ai-research-team) |
+| Research-Paper-Writer-Swarm | Automated research paper writing system | Academic Writing | [Research-Paper-Writer-Swarm](https://github.com/The-Swarm-Corporation/Research-Paper-Writer-Swarm) |
+| Perplexity Agent | Advanced research automation using Perplexity AI integration | Research | [Perplexity Agent](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/agents/use_cases/research/perplexity_agent.py) |
+| Astronomy Research | Collaborative space research and astronomical analysis | Research | [Astronomy Research](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/applications/astronomy/multiversal_detection/test.py) |
+| Deep Research Swarm | Comprehensive research system with multiple specialized agents | Research | [Deep Research Swarm](https://github.com/kyegomez/swarms/blob/master/examples/multi_agent/deep_research_examples/deep_research_swarm_example.py) |
+| Scientific Agents | Scientific research swarm for academic and research applications | Research | [Scientific Agents](https://github.com/kyegomez/swarms/blob/master/examples/demos/scient_agents/deep_research_swarm_example.py) |
 
-*For a comprehensive list of influential multi-agent papers, check out the [awesome-multi-agent-papers](https://github.com/kyegomez/awesome-multi-agent-papers) repository.*
+### Mathematical & Analytical
 
------
+| Name | Description | Type | Repository |
+|------|-------------|------|------------|
+| Generalist-Mathematician-Swarm | Mathematical problem-solving agent swarm | Mathematics | [Generalist-Mathematician-Swarm](https://github.com/The-Swarm-Corporation/Generalist-Mathematician-Swarm) |
+| MALT Example | Multi-agent logical reasoning framework | Reasoning | [MALT Example](https://github.com/kyegomez/swarms/blob/master/examples/single_agent/reasoning_agent_examples/malt_example.py) |
 
-## 🏢 Industry Applications & Templates
+---
 
-Swarms provides a vast collection of production-ready templates and applications tailored for specific industries, enabling developers to rapidly deploy sophisticated solutions for real-world problems. Explore these repositories to see how Swarms can be adapted to your domain.
+## 💼 Business & Marketing
 
-### 🏥 Healthcare & Medical Applications
+### Marketing & Content
 
-| Name | Description | Repository |
-| :--- | :--- | :--- |
-| **MRI-Swarm** | A multi-agent system designed for the advanced analysis and diagnosis of MRI images, leveraging collective intelligence for higher accuracy. | [MRI-Swarm](https://github.com/The-Swarm-Corporation/MRI-Swarm) |
-| **DermaSwarm** | A specialized swarm of dermatology-focused agents for analyzing skin conditions from images and patient data. | [DermaSwarm](https://github.com/The-Swarm-Corporation/DermaSwarm) |
-| **Multi-Modal X-Ray Diagnosis** | A powerful swarm that uses multi-modal AI agents to provide comprehensive diagnoses from X-ray images and associated medical reports. | [Multi-Modal-XRAY-Diagnosis](https://github.com/The-Swarm-Corporation/Multi-Modal-XRAY-Diagnosis-Medical-Swarm-Template) |
-| **Medical Coder Swarm** | An agent swarm that automates the complex process of medical coding, improving efficiency and reducing errors in billing and documentation. | [MedicalCoderSwarm](https://github.com/The-Swarm-Corporation/MedicalCoderSwarm) |
-| **Pharma Swarm** | A swarm dedicated to accelerating pharmaceutical research and development, from drug discovery to clinical trial analysis. | [pharma-swarm](https://github.com/The-Swarm-Corporation/pharma-swarm) |
-| **Radiology Swarm** | A multi-agent system specifically designed for radiology workflows, assisting with image interpretation and report generation. | [radiology-swarm](https://github.com/The-Swarm-Corporation/radiology-swarm) |
-| **MedInsight-Pro** | An advanced medical analytics platform that provides deep insights from vast datasets, powered by a swarm of analytical agents. | [MedInsight-Pro](https://github.com/The-Swarm-Corporation/MedInsight-Pro) |
+| Name | Description | Type | Repository |
+|------|-------------|------|------------|
+| Marketing-Swarm-Template | Marketing campaign automation template | Marketing Automation | [Marketing-Swarm-Template](https://github.com/The-Swarm-Corporation/Marketing-Swarm-Template) |
+| Multi-Agent-Marketing-Course | Educational course on multi-agent marketing | Marketing Education | [Multi-Agent-Marketing-Course](https://github.com/The-Swarm-Corporation/Multi-Agent-Marketing-Course) |
+| NewsAgent | News aggregation and analysis agent | News Analysis | [NewsAgent](https://github.com/The-Swarm-Corporation/NewsAgent) |
+| Ad Generation | Collaborative ad creation with copywriting and design agents | Marketing | [Ad Generation](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/applications/demos/ad_gen/ad_gen_example.py) |
+| Business Strategy | Strategic planning and business development swarm | Business | [Business Strategy](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/applications/business_strategy/business_strategy_graph/growth_agent.py) |
 
-### 💰 Financial Services & Trading
+### Legal Services
 
-| Name | Description | Repository |
-| :--- | :--- | :--- |
-| **Automated Crypto Fund** | Manages a cryptocurrency trading fund by automating analysis, rebalancing, and execution of trades with a team of financial agents. | [automated-crypto-fund](https://github.com/The-Swarm-Corporation/automated-crypto-fund) |
-| **Forex Tree Swarm** | A Forex trading system that uses a decision tree swarm architecture to analyze market data and make informed trading decisions. | [ForexTreeSwarm](https://github.com/The-Swarm-Corporation/ForexTreeSwarm) |
-| **Open-Aladdin** | An open-source financial risk management system inspired by BlackRock's Aladdin, using agents to monitor portfolios and assess risk. | [Open-Aladdin](https://github.com/The-Swarm-Corporation/Open-Aladdin) |
-| **AutoHedge** | An agent-based system for implementing and automating complex hedging strategies to manage financial risk. | [AutoHedge](https://github.com/The-Swarm-Corporation/AutoHedge) |
-| **Insurance Swarm** | A swarm designed to automate insurance processes, including claim processing, fraud detection, and policy underwriting. | [InsuranceSwarm](https://github.com/The-Swarm-Corporation/InsuranceSwarm) |
-| **Mortgage Underwriting Swarm** | An automated system that streamlines the mortgage underwriting process by using agents to verify information and assess applicant risk. | [MortgageUnderwritingSwarm](https://github.com/The-Swarm-Corporation/MortgageUnderwritingSwarm) |
+| Name | Description | Type | Repository |
+|------|-------------|------|------------|
+| Legal-Swarm-Template | Legal document processing and analysis | Legal Technology | [Legal-Swarm-Template](https://github.com/The-Swarm-Corporation/Legal-Swarm-Template) |
+| Alberto Agent | Legal research and document analysis assistant | Legal | [Alberto Agent](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/agents/use_cases/law/alberto_agent.py) |
 
-### 🔬 Scientific & Academic Research
+---
 
-| Name | Description | Repository |
-| :--- | :--- | :--- |
-| **Auto AI Research Team** | An automated team of AI research agents that can collaborate to conduct experiments, analyze data, and generate insights. | [auto-ai-research-team](https://github.com/The-Swarm-Corporation/auto-ai-research-team) |
-| **Research Paper Writer Swarm** | A system that automates the process of writing academic research papers, from literature review to drafting and formatting. | [Research-Paper-Writer-Swarm](https://github.com/The-Swarm-Corporation/Research-Paper-Writer-Swarm) |
-| **Generalist Mathematician Swarm** | A swarm of mathematical agents designed to collaborate on solving complex mathematical problems and proving theorems. | [Generalist-Mathematician-Swarm](https://github.com/The-Swarm-Corporation/Generalist-Mathematician-Swarm) |
+## 🛠️ Development Tools & Platforms
 
-### 💼 Business, Marketing, & Legal
+### Core Platforms & Operating Systems
 
-| Name | Description | Repository |
-| :--- | :--- | :--- |
-| **Marketing Swarm Template** | A template for building a marketing campaign automation swarm, including agents for content creation, social media posting, and analytics. | [Marketing-Swarm-Template](https://github.com/The-Swarm-Corporation/Marketing-Swarm-Template) |
-| **NewsAgent** | An agent that aggregates, analyzes, and summarizes news from various sources to provide tailored intelligence briefings. | [NewsAgent](https://github.com/The-Swarm-Corporation/NewsAgent) |
-| **Legal Swarm Template** | A template for legal applications, enabling agents to process, analyze, and summarize legal documents and perform legal research. | [Legal-Swarm-Template](https://github.com/The-Swarm-Corporation/Legal-Swarm-Template) |
+| Name | Description | Type | Repository |
+|------|-------------|------|------------|
+| AgentOS | Operating system for AI agents | Agent Platform | [AgentOS](https://github.com/The-Swarm-Corporation/AgentOS) |
+| swarm-ecosystem | Complete ecosystem for swarm development | Ecosystem Platform | [swarm-ecosystem](https://github.com/The-Swarm-Corporation/swarm-ecosystem) |
+| AgentAPIProduction | Production-ready agent API system | API Platform | [AgentAPIProduction](https://github.com/The-Swarm-Corporation/AgentAPIProduction) |
+| Swarms API | API integration for Swarms multi-agent systems | API | [Swarms API](https://github.com/kyegomez/swarms/blob/master/examples/multi_agent/swarms_api_examples/swarms_api_example.py) |
 
------
+### Development Tools & Utilities
 
-## ⚙️ Swarm Structures & Examples
+| Name | Description | Type | Repository |
+|------|-------------|------|------------|
+| DevSwarm | Development-focused agent swarm | Development Tools | [DevSwarm](https://github.com/The-Swarm-Corporation/DevSwarm) |
+| FluidAPI | Dynamic API generation and management | API Tools | [FluidAPI](https://github.com/The-Swarm-Corporation/FluidAPI) |
+| OmniParse | Universal document parsing system | Document Processing | [OmniParse](https://github.com/The-Swarm-Corporation/OmniParse) |
+| doc-master | Documentation generation and management | Documentation Tools | [doc-master](https://github.com/The-Swarm-Corporation/doc-master) |
+| CSV Agent | CSV data processing and manipulation agent | Utility | [CSV Agent](https://github.com/kyegomez/swarms/blob/master/examples/misc/csvagent_example.py) |
+| Swarm Matcher | Agent matching and selection system | Utility | [Swarm Matcher](https://github.com/kyegomez/swarms/blob/master/examples/misc/swarm_matcher_example.py) |
 
-This index organizes **100+ production-ready examples** from the [Swarms Examples Repository](https://github.com/The-Swarm-Corporation/swarms-examples), showcasing the framework's power and versatility.
+### Templates & Examples
 
-### Multi-Agent Systems (Swarms)
+| Name | Description | Type | Repository |
+|------|-------------|------|------------|
+| Multi-Agent-Template-App | Template application for multi-agent systems | Template | [Multi-Agent-Template-App](https://github.com/The-Swarm-Corporation/Multi-Agent-Template-App) |
+| swarms-examples | Collection of Swarms framework examples | Examples | [swarms-examples](https://github.com/The-Swarm-Corporation/swarms-examples) |
+| Phala-Deployment-Template | Deployment template for Phala Network | Deployment Template | [Phala-Deployment-Template](https://github.com/The-Swarm-Corporation/Phala-Deployment-Template) |
+| Easy Example | Basic agent implementation demonstrating core functionality | Example | [Easy Example](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/agents/easy_example.py) |
+| Agent Settings | Comprehensive configuration options for customizing agent behavior | Example | [Agent Settings](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/agents/agent_settings.py) |
+| Agents from YAML | Creating and configuring agents using YAML configuration files | Example | [Agents from YAML](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/agents/agents_from_yaml_example.py) |
 
-These examples demonstrate how to build powerful collaborative systems.
+---
 
-#### Core Architectures
+## 📚 Educational Resources
 
-| Example | Description | Repository Link |
-| :--- | :--- | :--- |
-| **Build a Swarm** | The fundamental example for creating a custom swarm with multiple agents. | [build\_a\_swarm.py](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/structs/swarms/base_swarm/build_a_swarm.py) |
-| **Concurrent Swarm** | Shows how to achieve parallel execution of tasks across multiple agents for high-throughput processing. | [concurrent\_swarm\_example.py](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/structs/swarms/concurrent_swarm/concurrent_swarm_example.py) |
-| **Hierarchical Swarm** | Implements a multi-level agent hierarchy, perfect for tasks requiring top-down management and delegation. | [hierarchical\_swarm\_example.py](https://github.com/kyegomez/swarms/blob/master/examples/multi_agent/hiearchical_swarm/hiearchical_examples/hierarchical_swarm_example.py) |
-| **Sequential Workflow** | A linear workflow where agents process tasks in a defined sequence, ideal for multi-step processes. | [sequential\_workflow\_example.py](https://github.com/kyegomez/swarms/blob/master/examples/multi_agent/sequential_workflow/sequential_workflow_example.py) |
-| **Auto Swarm** | A self-organizing swarm with automatic task distribution and management, adapting to dynamic workloads. | [auto\_swarm\_example.py](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/structs/swarms/auto_swarm/auto_swarm_example.py) |
-| **Graph Workflow** | A minimal but powerful example of a graph-based workflow with two agents and one task. | [graph\_workflow\_basic.py](https://github.com/kyegomez/swarms/blob/main/examples/structs/graph_workflow_basic.py) |
+| Name | Description | Type | Repository |
+|------|-------------|------|------------|
+| Enterprise-Grade-Agents-Course | Comprehensive course on enterprise AI agents | Educational Course | [Enterprise-Grade-Agents-Course](https://github.com/The-Swarm-Corporation/Enterprise-Grade-Agents-Course) |
+| Agents-Beginner-Guide | Beginner's guide to AI agents | Educational Guide | [Agents-Beginner-Guide](https://github.com/The-Swarm-Corporation/Agents-Beginner-Guide) |
+| The Swarms Cookbook | Detailed walkthroughs and advanced patterns | Educational Guide | [The Swarms Cookbook](https://github.com/The-Swarm-Corporation/Cookbook) |
+| swarms-evals | Evaluation framework for swarm systems | Testing Framework | [swarms-evals](https://github.com/The-Swarm-Corporation/swarms-evals) |
+| Multi-Agent-Marketing-Course | Educational course on multi-agent marketing | Marketing Education | [Multi-Agent-Marketing-Course](https://github.com/The-Swarm-Corporation/Multi-Agent-Marketing-Course) |
 
-#### Group Chat & Interactive Systems
+---
 
-| Example | Description | Repository Link |
-| :--- | :--- | :--- |
-| **Group Chat** | A multi-agent group chat system with turn-based communication for collaborative problem-solving. | [group\_chat\_example.py](https://github.com/kyegomez/swarms/blob/master/examples/multi_agent/groupchat/groupchat_examples/group_chat_example.py) |
-| **Interactive Group Chat** | An advanced group chat that allows for real-time user participation and intervention. | [interactive\_groupchat\_example.py](https://github.com/kyegomez/swarms/blob/master/examples/multi_agent/groupchat/interactive_groupchat_example.py) |
-| **Medical Panel** | A specialized panel of medical expert agents for healthcare discussions and diagnostic collaboration. | [medical\_panel\_example.py](https://github.com/kyegomez/swarms/blob/master/examples/multi_agent/interactive_groupchat_examples/medical_panel_example.py) |
+## 🔍 Multi-Agent Research Implementations
 
-#### Advanced Collaboration & Experimental Architectures
+| Paper Name | Description | Original Paper | Implementation | Status | Key Features |
+|------------|-------------|----------------|----------------|--------|--------------|
+| MALT | Orchestration framework for structured conversations | [arXiv:2412.01928](https://arxiv.org/pdf/2412.01928) | [swarms.structs.malt](https://docs.swarms.world/en/latest/swarms/structs/malt/) | ✅ Complete | Creator-Verifier-Refiner, structured workflow |
+| MAI-DxO | Simulates a virtual panel of physician-agents for iterative medical diagnosis | [arXiv:2506.22405](https://arxiv.org/abs/2506.22405) | [Open-MAI-Dx-Orchestrator](https://github.com/The-Swarm-Corporation/Open-MAI-Dx-Orchestrator) | ✅ Complete | Cost-effective diagnosis, iterative refinement |
+| AI-CoScientist | Collaborative scientific research with tournament-based hypothesis evolution | [AI CoScientist Paper](https://storage.googleapis.com/coscientist_paper/ai_coscientist.pdf) | [AI-CoScientist](https://github.com/The-Swarm-Corporation/AI-CoScientist) | ✅ Complete | Tournament selection, peer review, hypothesis evolution |
+| Mixture of Agents (MoA) | Parallel processing with iterative refinement | [arXiv:2406.04692](https://arxiv.org/abs/2406.04692) | [swarms.structs.moa](https://docs.swarms.world/en/latest/swarms/structs/moa/) | ✅ Complete | Expert specialization, state-of-the-art performance |
+| Deep Research Swarm | Comprehensive analysis across domains | Research methodology | [swarms.structs.deep_research_swarm](https://docs.swarms.world/en/latest/swarms/structs/deep_research_swarm/) | ✅ Complete | Parallel processing, multi-agent coordination |
+| Agent-as-a-Judge | Agents evaluate other agents | [arXiv:2410.10934](https://arxiv.org/abs/2410.10934) | [swarms.agents.agent_judge](https://docs.swarms.world/en/latest/swarms/agents/agent_judge/) | ✅ Complete | Automated judging, performance metrics |
 
-| Example | Description | Repository Link |
-| :--- | :--- | :--- |
-| **Majority Voting** | A consensus-based decision-making system where multiple agents vote to reach a conclusion. | [majority\_voting.py](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/structs/swarms/multi_agent_collaboration/majority_voting.py) |
-| **Monte Carlo Swarm** | A swarm that uses Monte Carlo simulation for probabilistic decision-making and exploring complex problem spaces. | [monte\_carlo\_swarm.py](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/structs/swarms/experimental/monte_carlo_swarm.py) |
-| **Ant Colony Swarm** | A bio-inspired optimization system using ant colony algorithms for intelligent agent coordination and pathfinding. | [ant\_swarm.py](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/structs/swarms/experimental/ant_swarm.py) |
-| **Federated Swarm** | A distributed learning system that enables privacy-preserving agent collaboration across different environments. | [federated\_swarm.py](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/structs/swarms/experimental/federated_swarm.py) |
-
-### Single-Agent Systems
-
-These examples cover the foundational agent, its capabilities, and integrations.
-
-| Category | Example | Description | Repository Link |
-| :--- | :--- | :--- | :--- |
-| **Core** | **Easy Example** | The simplest agent implementation, demonstrating core functionality. Perfect for beginners. | [easy\_example.py](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/agents/easy_example.py) |
-| **Memory** | **Agent with Long-term Memory** | Shows how to give an agent persistent memory to maintain context across sessions. | [agent\_with\_longterm\_memory.py](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/agents/memory/agents_and_memory/agent_with_longterm_memory.py) |
-| **Tools** | **OpenAI Function Calling** | Demonstrates integration with OpenAI's function calling API for structured outputs and tool use. | [openai\_function\_caller\_example.py](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/agents/tools/function_calling/openai_function_caller_example.py) |
-| **Models** | **Groq Agent** | An example of using a high-performance model from Groq for accelerated inference. | [groq\_agent.py](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/agents/settings/various_models/groq_agent.py) |
-| **Models** | **Claude 4 Example** | Integration with Anthropic's Claude 3 model for advanced reasoning capabilities. | [claude\_4\_example.py](https://github.com/kyegomez/swarms/blob/master/examples/models/claude_4_example.py) |
-| **RAG** | **Full Agent RAG Example** | A complete Retrieval-Augmented Generation (RAG) implementation for question-answering over documents. | [full\_agent\_rag\_example.py](https://github.com/kyegomez/swarms/blob/master/examples/single_agent/rag/full_agent_rag_example.py) |
-| **Vision** | **Multimodal Example** | A multi-modal agent that can process and understand text, image, and audio inputs. | [multimodal\_example.py](https://github.com/kyegomez/swarms/blob/master/examples/single_agent/vision/multimodal_example.py) |
-
------
-
-## 🛠️ Developer Tools & Platforms
-
-The Swarms ecosystem includes core platforms and utilities to accelerate development, deployment, and management of agentic systems.
-
-| Name | Description | Repository |
-| :--- | :--- | :--- |
-| **AgentOS** | A foundational operating system for AI agents, providing core functionalities for agent lifecycle management. | [AgentOS](https://github.com/The-Swarm-Corporation/AgentOS) |
-| **Swarm Ecosystem** | The complete ecosystem for swarm development, bundling core libraries and essential tools. | [swarm-ecosystem](https://github.com/The-Swarm-Corporation/swarm-ecosystem) |
-| **DevSwarm** | A swarm of agents specifically designed to assist with software development tasks like code generation, debugging, and testing. | [DevSwarm](https://github.com/The-Swarm-Corporation/DevSwarm) |
-| **OmniParse** | A universal document parsing system that can extract structured information from any document format (PDF, DOCX, HTML, etc.). | [OmniParse](https://github.com/The-Swarm-Corporation/OmniParse) |
-| **doc-master** | An automated documentation generation and management tool to keep your project's docs up-to-date. | [doc-master](https://github.com/The-Swarm-Corporation/doc-master) |
-| **swarms-evals** | A comprehensive evaluation framework for testing and benchmarking the performance of your swarm systems. | [swarms-evals](https://github.com/The-Swarm-Corporation/swarms-evals) |
-
------
-
-## 📚 Educational Resources & Courses
-
-Learn how to build and deploy enterprise-grade agent systems with these comprehensive resources.
+### Research Compilations
 
 | Name | Description | Repository |
-| :--- | :--- | :--- |
-| **The Swarms Cookbook** | The definitive collection of detailed walkthroughs, advanced patterns, and recipes for building with Swarms. | [Cookbook](https://github.com/The-Swarm-Corporation/Cookbook) |
-| **Enterprise-Grade Agents Course** | A comprehensive course covering the principles and practices for building robust, scalable, and secure AI agents for enterprise use cases. | [Enterprise-Grade-Agents-Course](https://github.com/The-Swarm-Corporation/Enterprise-Grade-Agents-Course) |
-| **Agents Beginner Guide** | A beginner-friendly guide to the fundamental concepts of AI agents and how to get started with the Swarms framework. | [Agents-Beginner-Guide](https://github.com/The-Swarm-Corporation/Agents-Beginner-Guide) |
-| **Multi-Agent Marketing Course** | An educational course that teaches you how to build and deploy a multi-agent swarm for automating marketing tasks. | [Multi-Agent-Marketing-Course](https://github.com/The-Swarm-Corporation/Multi-Agent-Marketing-Course) |
+|------|-------------|------------|
+| awesome-multi-agent-papers | Comprehensive list of multi-agent research papers | [awesome-multi-agent-papers](https://github.com/kyegomez/awesome-multi-agent-papers) |
 
------
+---
 
-## 🤝 Community & Support
+## 🚀 Single Agent Examples
 
-Join our vibrant community of agent engineers, researchers, and developers\! Get support, share your projects, and stay up-to-date on the latest in multi-agent AI.
+### Core Agents
+
+| Name | Description | Repository |
+|------|-------------|------------|
+| Agent with Long-term Memory | Persistent memory for maintaining context | [Agent with Long-term Memory](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/agents/memory/agents_and_memory/agent_with_longterm_memory.py) |
+| Tool Agent | Basic tool-using agent | [Tool Agent](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/agents/tools/tool_agent.py) |
+| Agent with Many Tools | Advanced agent with multiple tools | [Agent with Many Tools](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/agents/tools/agent_with_many_tools.py) |
+
+### Model Integrations
+
+| Name | Description | Repository |
+|------|-------------|------------|
+| Azure OpenAI Agent | Integration with Azure OpenAI services | [Azure OpenAI Agent](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/agents/settings/various_models/basic_agent_with_azure_openai.py) |
+| Groq Agent | High-performance inference with Groq | [Groq Agent](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/agents/settings/various_models/groq_agent.py) |
+| Custom Model Agent | Framework for custom ML models | [Custom Model Agent](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/agents/settings/various_models/custom_model_with_agent.py) |
+| Cerebras Example | Integration with Cerebras AI platform | [Cerebras Example](https://github.com/kyegomez/swarms/blob/master/examples/models/cerebas_example.py) |
+| Claude 4 Example | Anthropic Claude 4 integration | [Claude 4 Example](https://github.com/kyegomez/swarms/blob/master/examples/models/claude_4_example.py) |
+| Lumo Example | Lumo AI model integration | [Lumo Example](https://github.com/kyegomez/swarms/blob/master/examples/models/lumo_example.py) |
+
+### Vision and Multimodal
+
+| Name | Description | Repository |
+|------|-------------|------------|
+| Image Batch | Batch processing of multiple images | [Image Batch](https://github.com/kyegomez/swarms/blob/master/examples/single_agent/vision/image_batch_example.py) |
+| Multimodal | Multi-modal agent for text, image, and audio | [Multimodal](https://github.com/kyegomez/swarms/blob/master/examples/single_agent/vision/multimodal_example.py) |
+
+---
+
+## 🌐 Multi-Agent Examples
+
+### Core Architectures
+
+| Name | Description | Repository |
+|------|-------------|------------|
+| Build a Swarm | Foundation for custom swarm architectures | [Build a Swarm](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/structs/swarms/base_swarm/build_a_swarm.py) |
+| Auto Swarm | Self-organizing swarm with task distribution | [Auto Swarm](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/structs/swarms/auto_swarm/auto_swarm_example.py) |
+| Star Swarm | Centralized hub agent coordinating peripherals | [Star Swarm](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/structs/swarms/different_architectures/star_swarm.py) |
+| Circular Swarm | Ring topology for cyclic information flow | [Circular Swarm](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/structs/swarms/different_architectures/circular_swarm.py) |
+
+### Experimental Architectures
+
+| Name | Description | Repository |
+|------|-------------|------------|
+| Monte Carlo Swarm | Probabilistic decision-making with Monte Carlo | [Monte Carlo Swarm](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/structs/swarms/experimental/monte_carlo_swarm.py) |
+| Federated Swarm | Distributed learning with privacy-preserving collaboration | [Federated Swarm](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/structs/swarms/experimental/federated_swarm.py) |
+| Ant Swarm | Bio-inspired optimization with ant colony algorithms | [Ant Swarm](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/structs/swarms/experimental/ant_swarm.py) |
+
+### Collaboration Patterns
+
+| Name | Description | Repository |
+|------|-------------|------------|
+| Agent Delegation | Task delegation and management system | [Agent Delegation](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/structs/swarms/multi_agent_collaboration/agent_delegation.py) |
+| Message Pool | Shared communication system for agents | [Message Pool](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/structs/swarms/multi_agent_collaboration/message_pool.py) |
+| Round Robin | Round-robin task scheduling | [Round Robin](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/structs/swarms/multi_agent_collaboration/round_robin_example.py) |
+
+---
+
+## 🛡️ Security Applications
+
+| Name | Description | Type | Repository |
+|------|-------------|------|------------|
+| Perimeter Defense | Security monitoring and threat detection | Security | [Perimeter Defense](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/agents/use_cases/security/perimeter_defense_agent.py) |
+| Email Phishing Detection | Multi-agent security analysis and threat detection | Security | [Email Phishing Detection](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/applications/demos/email_phiser/email_swarm.py) |
+| Security Team | Comprehensive security operations with threat detection | Security | [Security Team](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/applications/demos/security_team/security_team_example.py) |
+
+---
+
+## 🌍 Other Industry Applications
+
+| Name | Description | Type | Repository |
+|------|-------------|------|------------|
+| Space Traffic Control | Simulation of space traffic management | Aerospace | [Space Traffic Control](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/applications/demos/agentic_space_traffic_control/game.py) |
+| Plant Biology | Agricultural analysis and optimization | Agriculture | [Plant Biology](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/applications/demos/plant_biologist_swarm/agricultural_swarm.py) |
+| Urban Planning | City development planning with specialized agents | Urban Development | [Urban Planning](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/applications/demos/urban_planning/urban_planning_example.py) |
+| Education System | Personalized learning with teaching and assessment agents | Education | [Education System](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/applications/demos/education/education_example.py) |
+| Personal Stylist | Fashion recommendation with style analysis | Fashion | [Personal Stylist](https://github.com/The-Swarm-Corporation/swarms-examples/blob/main/examples/applications/demos/personal_stylist/personal_stylist_example.py) |
+
+---
+
+## 📡 Community & Support
 
 | Platform | Description | Link |
-| :--- | :--- | :--- |
-| 🏠 **Main Repository** | The core Swarms framework repository on GitHub. Star us\! | [**kyegomez/swarms**](https://github.com/kyegomez/swarms) |
-| 🏢 **GitHub Org** | Home to all official Swarms projects and templates. | [The-Swarm-Corporation](https://github.com/The-Swarm-Corporation) |
-| 🌐 **Website** | Official project website and hub for all things Swarms. | [**swarms.ai**](https://swarms.ai) |
-| 📚 **Documentation** | Official documentation, guides, and API reference. | [docs.swarms.world](https://docs.swarms.world) |
-| 💬 **Discord** | The main community hub for live chat, support, and collaboration. | [**Join our Discord**](https://discord.gg/jM3Z6M9uMq) |
-| 🐦 **Twitter / X** | Follow the creator for the latest news and announcements. | [@kyegomez](https://twitter.com/kyegomez) |
-| 📝 **Blog** | In-depth technical articles and updates on the project. | [Medium](https://medium.com/@kyeg) |
-| 📺 **YouTube** | Find video tutorials, demos, and community calls. | [Swarms Channel](https://www.youtube.com/channel/UC9yXyitkbU_WSy7bd_41SqQ) |
-| 🚀 **Onboarding** | Book a 1-on-1 session with Kye Gomez, the creator of Swarms. | [Book a Session](https://cal.com/swarms/swarms-onboarding-session) |
-| 👥 **LinkedIn** | Follow our professional network for company updates. | [The Swarm Corporation](https://www.linkedin.com/company/the-swarm-corporation) |
+|----------|-------------|------|
+| Main Repository | Swarms Framework | [GitHub](https://github.com/kyegomez/swarms) |
+| Organization | The Swarm Corporation | [GitHub Org](https://github.com/The-Swarm-Corporation) |
+| Website | Official project website | [swarms.ai](https://swarms.ai) |
+| Documentation | Official documentation and guides | [docs.swarms.world](https://docs.swarms.world) |
+| Blog | Latest updates and technical articles | [Medium](https://medium.com/@kyeg) |
+| Discord | Live chat and community support | [Join Discord](https://discord.gg/jM3Z6M9uMq) |
+| Twitter | Latest news and announcements | [@kyegomez](https://twitter.com/kyegomez) |
+| LinkedIn | Professional network and updates | [The Swarm Corporation](https://www.linkedin.com/company/the-swarm-corporation) |
+| YouTube | Tutorials and demos | [Swarms Channel](https://www.youtube.com/channel/UC9yXyitkbU_WSy7bd_41SqQ) |
+| Events | Community events | [Sign up](https://lu.ma/5p2jnc2v) |
+| Onboarding Session | Onboarding with Kye Gomez | [Book Session](https://cal.com/swarms/swarms-onboarding-session) |
 
------
+---
 
-## Citation
+## 🚀 Getting Started
 
-If you use Swarms in your research or projects, please cite the framework:
+### Prerequisites
+- Python 3.8+
+- Basic understanding of AI agents
+- Familiarity with the Swarms framework
 
-```bibtex
-@misc{SWARMS_2022,
-  author       = {Gomez, Kye and Pliny and More, Harshal and Swarms Community},
-  title        = {{Swarms: Production-Grade Multi-Agent Infrastructure Platform}},
-  year         = {2022},
-  howpublished = {\url{https://github.com/kyegomez/swarms}},
-  note         = {Documentation available at \url{https://docs.swarms.world}},
-  version      = {latest}
-}
+### Installation
+```bash
+pip install swarms
 ```
+
+### Quick Start
+1. Clone the main repository: [https://github.com/kyegomez/swarms](https://github.com/kyegomez/swarms)
+2. Choose a template or example from the above categories
+3. Follow the setup instructions in the repository's README
+4. Customize agents for your use case
+
+---
+
+## 🤝 Contributing
+1. Fork the main repository: [https://github.com/kyegomez/swarms](https://github.com/kyegomez/swarms)
+2. Create a feature branch
+3. Submit a pull request
+4. Join community discussions on [Discord](https://discord.gg/jM3Z6M9uMq)
+
+---
+
+## 📊 Statistics
+- **Total Projects**: 50+
+- **Industries Covered**: Healthcare, Finance, Research, Business, Development, Security, Aerospace, Agriculture, Urban Development, Education, Fashion
+- **Active Development**: Continuous updates and new additions
+
+---
+
+Explore the power of multi-agent systems with the Swarms framework at [https://github.com/kyegomez/swarms](https://github.com/kyegomez/swarms) and visit [swarms.ai](https://swarms.ai) for the latest updates!
