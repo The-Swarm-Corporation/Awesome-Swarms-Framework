@@ -36,47 +36,6 @@ To get the most out of Swarms, it's helpful to understand a few key concepts:
 
 -----
 
-## ⚡ Getting Started
-
-Getting started with Swarms is incredibly simple.
-
-**1. Installation**
-Install the package using pip:
-
-```bash
-pip install swarms
-```
-
-**2. Your First "Hello, Swarm\!"**
-This simple example demonstrates the basic `Agent` class.
-
-```python
-from swarms import Agent, OpenAIChat
-
-# Get your API key from https://openai.com/
-api_key = "..."
-
-# Initialize the language model
-llm = OpenAIChat(
-    openai_api_key=api_key,
-    temperature=0.5,
-)
-
-# Initialize the agent
-agent = Agent(
-    llm=llm,
-
-    max_loops=1,
-    dashboard=True
-)
-
-# Run the agent with a task
-out = agent("What is the capital of France? Respond in a single word.")
-print(out) # Output: Paris
-```
-
------
-
 ## 🔬 Research Paper Implementations
 
 Swarms is at the forefront of AI research, providing production-grade, open-source implementations of influential multi-agent papers. This democratizes access to cutting-edge techniques and allows developers to build with state-of-the-art models.
