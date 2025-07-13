@@ -1,6 +1,5 @@
 # Awesome Swarms: A Comprehensive Guide to the Swarms Framework
 
-# Awesome Swarms ✨
 
 A curated, comprehensive list of awesome libraries, tools, templates, and resources for the **Swarms** framework by [swarms.ai](https://swarms.ai). Swarms is a powerful, modular, and reliable open-source framework for building, deploying, and scaling autonomous agent swarms for any task.
 
@@ -402,11 +401,6 @@ pip install swarms
 ---
 
 Explore the power of multi-agent systems with the Swarms framework at [https://github.com/kyegomez/swarms](https://github.com/kyegomez/swarms) and visit [swarms.ai](https://swarms.ai) for the latest updates!
-
-
-
-
-
 
 
 
